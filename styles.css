@@ -362,12 +362,19 @@ span {
     
     
     .two, .four {
-      height: 60vh;
+      height: 100vh;
       display: grid;
       grid-template-columns: 1fr;
     }
     
-  
+   
+    
+    
+    .three {
+      height: 100vh;
+
+    }
+    
     
     .weatherWrapper {
       display: flex;
@@ -375,7 +382,7 @@ span {
       text-align: center;
       text-transform: capitalize;
       font-size: 1.5em;
-      margin-top: -60px;
+
       padding-top: 0px;
     }
 
